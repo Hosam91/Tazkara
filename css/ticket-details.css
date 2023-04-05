@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  :root{
+    --blue-color:#1F41BB
+  }
+  h3{
+    margin-top: 3rem;
+
+  }
+  .ticket {
+    display: flex;
+    flex-direction:row ;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+  }
+
+
+  .ticket .img {
+    width: 50%;
+    border-radius: .4rem;
+    height: 60vh;
+    padding: 0rem;
+  }
+  .ticket .img img{
+    width: 100%;
+    border-radius: .4rem;
+    height: 100%;
+
+  }
+
+  .ticket .details{
+    padding: 1rem;
+
+    width: 40%;
+    background-color: #f0e7e77a;
+    border-radius: .4rem;
+  }
+ .title , .price , .bookde {
+    padding: .5rem;
+    width: 100%;
+  }
+  .bookde{
+    border:none ;
+    background-color:var(--blue-color) ;
+    border-radius: .4rem;
+    color: #fff;
+    font-weight: bolder;
+  }
+  .bookde:hover{
+    background-color: green;
+  }
+ 

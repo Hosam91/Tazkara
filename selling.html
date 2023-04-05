@@ -1,0 +1,133 @@
+<html>
+
+<head>
+
+  <title>Tazkara</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> 
+
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sellingStyle.css">
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    
+
+
+</head>
+
+<body>
+
+  <nav id="navBar" class="navbar navbar-expand-lg ">
+    <div class="container">
+       <a class="navbar-brand" href="#">
+           <div class="logo">
+               <h2>Tazkara</h2>
+           </div>
+         
+         </a>
+       <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon "></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+           <li class="nav-item">
+             <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="./about.html">About</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="./contact.html">Contact Us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="./events.html">Events</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link activ" href="./selling.html">Sell Ticket</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link " href="./buy.html">Buy Tickets</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link " href="./Xchange.html">Exchange Tickets</a>
+          </li>
+          
+          
+           <li class="position-relative cart">
+            <i id="mycart" class=" fa fa-cart-arrow-down fa-2x" aria-hidden="true">
+              <span class="badg  ">2</span>
+           </i>
+          
+          
+         </ul>
+         
+       </div>
+    </div>
+ </nav>
+
+
+   
+<!--------------- End Nav Bar --------- -->
+<div class="container ">
+ 
+  <form action="" method="POST">
+		<label for="image">Uploade your event Image</label>
+		<input type="file" id="image" name="image">
+
+		<label for="title">Event name </label>
+		<input type="text" id="title" name="title" required>
+    <label for="title">Event discription </label>
+		<input type="text" id="title" name="title" required>
+
+		<label for="location">Location </label>
+		<input type="text" id="location" name="location" required>
+
+		<label for="price">Price </label>
+		<input type="number" id="price" name="price" min="0" required>
+
+		<label for="exchange">Exchange </label>
+		<input type="checkbox" id="exchange" name="exchange" onchange="showExchange()">
+
+		<div id="exchange-field" style="display: none">
+			<label for="exchange-with">Exchange with:</label>
+			<select id="events">
+        <option value="Mohamed abdo Concert">Mohamed abdo Concert</option>
+        <option value="alnasr">Al-Helal vs Al-Nasr</option>
+        <option value="STEAM Based Camp"> STEAM Based Camp</option>
+        <option value="audi">World Defense Show 2024</option>
+      </select>
+		</div>
+
+		<button type="submit">Submit</button>
+	</form>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+      <script src="js/main.js"></script>
+
+</body>
+
+</html>

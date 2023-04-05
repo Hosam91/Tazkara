@@ -1,0 +1,80 @@
+.activ{
+    background-color: rgba(89, 92, 92, 0.37);
+    border-radius: .3rem;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  :root{
+    --blue-color:#1F41BB
+  }
+
+.row{
+    margin-top: 2rem;
+}
+.box{
+    border: 1px solid blue;
+    padding: .9rem;
+    margin: .3rem;
+    border-radius: .3rem;
+    position: relative;
+    margin-top: 2rem;
+    vertical-align: bottom;
+    display: flex;
+    flex-direction: column;
+
+}
+.box:hover{
+    background-color: #ddd;
+}
+.box h6{
+    font-size: .8rem;
+    height: 15%;
+}
+.info{
+    height: 35%;
+    display: flex;
+}
+.info p {
+    width: 50%;
+}
+.box p{
+    margin: 2px;
+    font-size: .7rem;
+}
+.box a button{
+    border: none;
+    width: 100%;
+    border-radius:.3rem ;
+    background-color: var(--blue-color);
+    padding: .2rem;
+
+}
+.box a button:hover{
+    background-color:green;
+
+}
+.owner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.owner img{
+    width: 20%;
+}
+.owner p {
+    width: 80%;
+}
+
+.badg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(238, 26, 26);
+    padding: .2rem;
+    border-radius: .2rem;
+    color: #ddd;
+
+}

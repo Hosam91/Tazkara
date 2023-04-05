@@ -1,0 +1,58 @@
+.activ{
+    background-color: rgba(89, 92, 92, 0.37);
+    border-radius: .3rem;
+}
+
+
+
+main {
+	margin-top: 80px;
+	padding: 40px 20px;
+}
+
+.containerr {
+	background-color: #fff;
+	margin: 0 auto;
+	max-width: 700px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+h1 {
+	margin-top: 0;
+	color: #1F41BB;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 8px;
+	color: #1F41BB;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+form textarea {
+	height: 150px;
+	resize: none;
+}
+
+form input[type="submit"] {
+	background-color: #1F41BB;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor:pointer
+}
