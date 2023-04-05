@@ -187,3 +187,30 @@ footer .angellist {
  
 
 }
+
+
+
+ul li .addedItems {
+  display: none;
+  width: 16rem;
+  padding: 0.7rem;
+  background-color: #b3aaaa;
+  position: absolute;
+  transform: translate(-54%, 5%);
+  border: 1px solid #0e0d0d;
+  color: #0e0d0d;
+  border-radius: .3rem;
+}
+.addedItems  .item{
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #0e0d0d solid 1px;
+  padding: .4rem;
+  margin-top: .3rem;
+
+}
+.addedItems  .item p{
+  max-width: 33.3%;
+}
